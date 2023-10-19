@@ -35,6 +35,9 @@ header {
 .header-top a i {
   margin-right: 7px;
 }
+.promo-descktop {
+  display: none;
+}
 .header-bottom {
   width: 100%;
   display: flex;
@@ -630,6 +633,16 @@ form button {
     max-width: 100%;
     border-radius: 50px 0px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+  }
+  .promo-movil {
+    display: none;
+  }
+  .promo-descktop {
+    display: block;
+  }
+  .promo-des {
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
   .img-scr {
     display: block !important;
