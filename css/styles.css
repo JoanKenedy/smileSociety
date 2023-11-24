@@ -47,7 +47,7 @@ header {
   padding-right: 1.5em;
 }
 .logo-header {
-  max-width: 60%;
+  max-width: 100%;
 }
 .icon-menu {
   width: 40px;
@@ -202,6 +202,21 @@ header {
   grid-template-columns: repeat(1, 1fr);
   width: 90%;
   margin: auto;
+}
+.container-offer .item-offer a {
+  padding: 10px 15px;
+  background-color: #0040ff;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.275s linear;
+}
+.item-offer {
+  margin-bottom: 30px;
+}
+.container-offer .item-offer a:hover {
+  transform: scale(1.1);
+  transition: all 0.275s linear;
 }
 .item-offer:nth-child(1) p {
   margin: 7px auto;
@@ -672,7 +687,7 @@ form button {
     font-size: 1.3em;
   }
   .logo-header {
-    max-width: 60%;
+    max-width: 100%;
   }
   .header-bottom {
     width: 100%;
